@@ -2,13 +2,15 @@ const path = require('path'); // Trabalhar com caminhos node
 module.exports ={
     entry: path.resolve(__dirname, 'src', 'index.js'), // Arquivo de entrada
 
-    devServer: {
-        contentBase: './public',
-    },
+    
 
     output:{ // Arquivo de saída
         path: path.resolve(__dirname, 'public'), 
         filename: 'bundle.js'
+    },
+
+    devServer: {
+        contentBase: './public',
     },
 
 
