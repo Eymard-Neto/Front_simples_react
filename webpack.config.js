@@ -1,5 +1,7 @@
-const path = require("path"); // Trabalhar com caminhos node
+const path = require("path");// Trabalhar com caminhos node
 module.exports = {
+
+
   entry: path.resolve(__dirname, "src", "index.js"), // Arquivo de entrada
 
   output: {
